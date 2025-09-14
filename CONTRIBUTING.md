@@ -73,7 +73,8 @@ git commit -m "Commit Message!"
 It will prompt you to set your GitHub name and GitHub email (it won't prompt you about it if you already set it), make sure you set them.
 Then run:
 ```bash
-git push origin main # remember to push to your fork or it won't work
+git remote set-url origin your_repository_link
+git push origin main
 ```
 This will ask you for your GitHub name and GitHub password. Now it actually won't accept your GitHub password, you need a token for it to work. To get your token go to https://github.com/settings/tokens and press "Generate New Token".
 > **Note:** Do not share your tokens to ANYONE.
